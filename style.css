@@ -1,0 +1,225 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*=========== HEADER ===========*/
+
+#header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-repeat: repeat-x;
+    background-image: url('images/silver.jpg');
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+}
+
+/*=========== TOP-TABS ===========*/
+
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(122, 116, 112, 0.911);
+    font-size: large;
+}
+    
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 20%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    
+}
+
+#tabs-tap a{
+    float: right;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+
+}
+
+/*==========MAIN-TOP===========*/
+#main-home{
+    margin-top: 150px;
+}
+
+/*=========== MAIN ===========*/
+
+#main{
+    margin-top: 119px;
+    background: url('images/background-01.jpg');
+    background-repeat:repeat-y;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+    } 
+
+ #main img{
+    border:2px solid #11020a;
+    border-radius: 30px; 
+    }
+p{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255, 0.6);
+    font-size: 20px;
+    padding: 5px;
+}
+
+/*=================== INFO BOX ===================*/
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin:auto;
+    margin-top: 12px;
+    padding: 0px;
+}
+
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+
+.info-box h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: #110801;
+}
+
+.info-box p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: #131313;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+/*=================== INFO-BOX-FULL  ===================*/
+
+.info-box-full p{
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin:auto;
+    margin-top: 12px;
+    padding: 0px;
+
+}
+
+/*========== TABS-BOTTOM ===========*/
+
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index:500;
+    width: 100%;
+    height: 40px;
+    background-color:rgba(122, 116, 112, 0.911) ;
+}
+#tabs-bottom a{
+    float: right;
+    display: block;
+    width: 20%;
+    height: 35px;
+    font-weight: 700;
+    color: rgb(24, 5, 59);
+    text-align: center;
+    text-decoration:none;
+    padding-top: 12px;
+}
+
+/*=================== INFO BOX FULL ===================*/
+
+#info-box-full{
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#info-box-full img{
+    width: 100%;
+}
+
+#info-box-full h3{
+    text-align: center;
+}
+
+/*=================== FORM ===================*/
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 5px;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 25px;
+    margin: 5px;
+    border: 1px solid #867272;
+}
+
+.buttom{
+    display: block;
+    width: 100%;
+    background-color: rgb(170, 179, 170);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 8px;
+}
